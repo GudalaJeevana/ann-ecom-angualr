@@ -9,7 +9,7 @@ import { Product } from '../common/Product';
 })
 export class ProductService {
 
-private baseUrl = 'http://localhost:8080/api/v1';
+private baseUrl = 'http://productloadbalancer-1769448681.ap-south-1.elb.amazonaws.com/api/v1';
 
 
   constructor(private httpClient: HttpClient) {}
